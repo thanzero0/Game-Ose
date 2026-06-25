@@ -1,19 +1,3 @@
-# Prime Ose: Rhythm Game 🎵
+Prime Ose: Rhythm Game 🎵
 
-A minimalist rhythm game built for the web. Test your timing and reflexes with a sleek, visually engaging interface.
-
-## 🌟 Features
-
-- Dynamic rhythm-based gameplay
-- Minimalist and premium aesthetic
-- Responsive interactions and animations
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- Vanilla JavaScript
-
-## 🚀 Getting Started
-
-Open `index.html` in your web browser to start playing!
+Prime Ose is a browser-based rhythm game that challenges players to synchronize their actions with music-driven patterns and visual cues. Designed with a clean and modern aesthetic, the game focuses on timing, precision, and fast reflexes as players interact with notes and beats that appear throughout each session. The gameplay becomes increasingly engaging as players strive to maintain accuracy, build high scores, and improve their rhythm skills. Featuring smooth animations, responsive controls, and a minimalist interface, Prime Ose delivers an enjoyable rhythm gaming experience directly in the browser using HTML, CSS, and JavaScript without requiring any additional software or installations.
