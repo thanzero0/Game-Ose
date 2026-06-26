@@ -1,19 +1,7 @@
-# Prime Ose: Rhythm Game 🎵
+# Prime Ose: Browser-Based Rhythm Game 🎵
 
-A minimalist rhythm game built for the web. Test your timing and reflexes with a sleek, visually engaging interface.
+Prime Ose is a rhythm game built entirely for the web, designed to test timing, reflexes, and musical intuition through a visually engaging neon-infused interface. The game features multiple songs — Digital Pulse, Neon Dreams, and Cyber Rush — each with its own BPM, duration, and difficulty scaling across easy, normal, and hard modes. Players interact with falling notes that must be hit in sync with the beat, and the faster the BPM, the more demanding the gameplay becomes. The visual design leans heavily into a cyberpunk aesthetic with vibrant accent colors for each track, creating an atmosphere that feels more like playing an arcade machine than using a web app.
 
-## 🌟 Features
+Unlike most browser games, Prime Ose has a lightweight Python backend powered by Flask, which serves the game's static assets and exposes a simple API endpoint that returns the available song list as JSON. This architecture keeps the frontend clean and makes it easy to add new tracks or adjust difficulty parameters without touching the client-side code. The frontend itself is built with vanilla HTML, CSS, and JavaScript, keeping the entire package lightweight and fast. No heavy game engine, no WebGL dependency, just clean DOM manipulation and CSS animations working together to deliver smooth, responsive gameplay.
 
-- Dynamic rhythm-based gameplay
-- Minimalist and premium aesthetic
-- Responsive interactions and animations
-
-## 🛠️ Technologies Used
-
-- HTML5
-- CSS3
-- Vanilla JavaScript
-
-## 🚀 Getting Started
-
-Open `index.html` in your web browser to start playing!
+The goal with Prime Ose was to prove that a satisfying rhythm game experience doesn't need a native app or a heavyweight framework. Everything runs in the browser, the server spins up with a single command, and the whole project is small enough to understand in one sitting. It's the kind of project where you open it planning to test one song and end up playing all three on hard mode trying to beat your own score.
